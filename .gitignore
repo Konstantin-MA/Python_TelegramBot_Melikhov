@@ -256,5 +256,5 @@ cython_debug/
 #.idea/
 .idea/
 
-!/settings/.envs/.env
 /settings/.envs/.env
+/secrets.py

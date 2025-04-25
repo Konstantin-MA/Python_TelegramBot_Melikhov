@@ -1,4 +1,5 @@
-import os
+
+"""import os
 from pydantic import SecretStr, PostgresDsn, Secret
 from pydantic_settings import BaseSettings, SettingsConfigDict
 class AppSettings(BaseSettings):
@@ -6,3 +7,4 @@ class AppSettings(BaseSettings):
 
     TELEGRAM_API_KEY: SecretStr = SecretStr("secret")
     LOG_LEVEL: str = "INFO"
+"""
