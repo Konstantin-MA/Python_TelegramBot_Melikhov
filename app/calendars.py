@@ -125,3 +125,5 @@ def event_read_handler(update, context):
 
         context.bot.send_message(chat_id=update.message.chat_id,
                              text=f"Событие {event_id} создано и имеет номер {event_id}.")
+    except:
+        context.bot.send_message(chat_id=update.message.chat_id, text="При создании события произошла ошибка.")
